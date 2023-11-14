@@ -13,6 +13,7 @@
 #' @import tibble
 #' @import tidyhydat
 #' @import tidyr
+#' @importFrom BBmisc is.error
 #' @importFrom readr read_delim locale
 #' @importFrom rlist list.select list.stack
 #' @importFrom rlang .data :=

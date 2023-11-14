@@ -43,9 +43,10 @@ australia <- function(site,
   }
 
   ## Retrieve data using `bomWater` package
-  original_data <- get_daily(
+  original_data <- try(get_daily(
     bom_variable, site, start_date, end_date
-  )
+  ),silent=TRUE)
+  if(is.error(original_data)==TRUE){stop('This gauge does not have a record associated with it and/or the agency website is down.')}
 
   ## Create return object
   original_data <- as_tibble(original_data)

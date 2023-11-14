@@ -35,7 +35,8 @@ japan <- function(site,
   start_date <- .get_start_date(start_date)
   end_date <- .get_end_date(end_date)
   column_name <- .get_column_name(variable)
-  original_data <- download_japan_data(site, variable, start_date, end_date)
+  original_data <- try(download_japan_data(site, variable, start_date, end_date),silent=TRUE)
+  if(is.error(original_data)==TRUE|nrow(original_data)==0){stop('This gauge does not have a record associated with it and/or the agency website is down.')}
   data <- parse_japan_data(original_data)
   ## Make sure timeseries is complete
   ts <- tibble(Date = seq.Date(start_date, end_date, by = "1 day"))
