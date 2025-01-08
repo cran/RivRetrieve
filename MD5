@@ -1,7 +1,7 @@
-567faaae51182a7df85af34e38a88782 *DESCRIPTION
+30d0d41a19e8949182eefcc6ee1e2580 *DESCRIPTION
 44e9e92f3a49ad0fb184baeefe8e6f1e *LICENSE
 e8cbdd0945c9eff0322d39e015342a6b *NAMESPACE
-4d2df4bdb1f378d3baec68e38cb38644 *NEWS.md
+c966cf3569accd8d4182405993b5e6c8 *NEWS.md
 58ae275ec8b5d10f57762741fbef9b31 *R/RivRetrieve-package.R
 189c7cc1bf4c468a82feee3f7c753227 *R/S3-methods.R
 202cb700d3bcd2bdf22ec65ab5838727 *R/australia.R
@@ -17,11 +17,11 @@ f20516c2cd4948f1311d2bad94c2e2d4 *R/sysdata.rda
 d6a2d98246131f7a4e6c7f01ec3920e5 *R/uk.R
 a7ef782c3177989099649ff13f15eecc *R/usa.R
 8d717131bd36e0250986a234a35b9b85 *R/utils.R
-62b11e69fb5ef1df596378f49cb40e60 *README.md
+b939a5e05b59e6395e4ecd589ea1cc2f *README.md
 80c3fdaecc0f5016364f1b2565913f2a *build/vignette.rds
-0413bf2f0461b11ec352910b6efd4969 *inst/doc/my-vignette.R
-daa2d4dfb0248ca49f0c6e7cb878cbbd *inst/doc/my-vignette.Rmd
-aef48b8dbf2f639ef05969a5583ca1de *inst/doc/my-vignette.html
+0c92a1d4f0228df8d6f9bbd0f13594ff *inst/doc/my-vignette.R
+ed20f9ce429db1e5f4c08edb46d81e0b *inst/doc/my-vignette.Rmd
+426cf0db5592d48ad056d3f1b5f8689d *inst/doc/my-vignette.html
 8034753660e137bf07e608a2a8731908 *man/RivRetrieve-package.Rd
 d8716886183d21fd1db05de48f7d86b1 *man/australia.Rd
 16be1b98dbe49ff827d68a929b246e86 *man/brazil.Rd
@@ -38,4 +38,4 @@ f100715536233b702710abfb5f41aad1 *man/uk.Rd
 e2ca6c51189c84211bd2dec7effa652e *man/usa.Rd
 b4a6b2834421bd82498b50eba207bb8d *tests/testthat.R
 b114665b507c980dc80d5645c4a36656 *tests/testthat/test_downloads.R
-daa2d4dfb0248ca49f0c6e7cb878cbbd *vignettes/my-vignette.Rmd
+ed20f9ce429db1e5f4c08edb46d81e0b *vignettes/my-vignette.Rmd
