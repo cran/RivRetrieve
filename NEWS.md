@@ -1,3 +1,7 @@
+# RivRetrive 0.1.7
+
+* Updating USA gauge access using new dataRetrieval functionality and added Quebec gauge access. 
+
 # RivRetrive 0.1.6
 
 * Updating vignette to use US gauge data as the example. 
