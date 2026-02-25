@@ -37,9 +37,9 @@ Retrieve Japanese gauge data
 }
 \examples{
 \dontrun{
-start_date <- as.Date("2019-01-01")
-end_date <- as.Date("2022-12-31")
-df <- japan("301011281104010", "discharge", start_date, end_date)
+start_date <- as.Date("1968-01-01")
+end_date <- as.Date("1970-12-31")
+df <- japan("301011281104090", "discharge", start_date, end_date)
 plot(df$Date, df$Q, type='l')
 }
 }
