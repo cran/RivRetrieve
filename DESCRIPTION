@@ -1,6 +1,6 @@
 Package: RivRetrieve
 Title: Retrieve Global River Gauge Data
-Version: 0.1.8
+Version: 0.1.9
 Authors@R: 
     c(person("Ryan", "Riggs", ,  "ryanriggs7@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-6834-9469")),
       person("Simon", "Moulds", , "sim.moulds@gmail.com", role = c("aut"), comment = c(ORCID = "0000-0002-7297-482X")),
@@ -21,7 +21,7 @@ Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2026-02-25 17:34:26 UTC; ryanr
+Packaged: 2026-03-10 20:11:55 UTC; ryanr
 Author: Ryan Riggs [aut, cre] (ORCID: <https://orcid.org/0000-0001-6834-9469>),
   Simon Moulds [aut] (ORCID: <https://orcid.org/0000-0002-7297-482X>),
   Michel Wortmann [aut] (ORCID: <https://orcid.org/0000-0002-1879-7674>),
@@ -29,4 +29,4 @@ Author: Ryan Riggs [aut, cre] (ORCID: <https://orcid.org/0000-0001-6834-9469>),
   George Allen [aut] (ORCID: <https://orcid.org/0000-0001-8301-5301>)
 Maintainer: Ryan Riggs <ryanriggs7@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-02-25 18:20:02 UTC
+Date/Publication: 2026-03-10 21:30:03 UTC
